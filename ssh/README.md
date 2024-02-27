@@ -1,2 +1,2 @@
-#Author: Joshua Alana
+#Author: Lydia Ojoawo
 #concept: SSH connection.
