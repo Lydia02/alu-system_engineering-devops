@@ -17,8 +17,8 @@ frontend  Lydia02_frontend
         default_backend Lydia02_backend
 backend Lydia02_backend
         balance roundrobin
-        server 176572-web-01 35.172.201.241:80 check
-        server 176572-web-02 52.207.229.0:80 check
+        server 6005-web-01 35.172.201.241:80 check
+        server 6005-web-02 52.207.229.0:80 check
 "
 echo "$server_config" | sudo tee -a /etc/haproxy/haproxy.cfg
 
