@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Customizing a 404-error_page
 
-# Updating Packages before performing installations
+#g Updating Packages before performing installations
 sudo apt-get update
 sudo apt-get install -y nginx
 
