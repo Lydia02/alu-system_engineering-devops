@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # install load balancer
-
+#should work
 
 echo -e "Updating and doing some minor checks...\n"
 
