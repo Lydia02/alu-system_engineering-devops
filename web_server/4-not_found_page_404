@@ -6,7 +6,7 @@ sudo apt-get update
 sudo apt-get install -y nginx
 
 # Creating an index.html page
-echo "Holberton Scghool" | sudo tee /var/www/html/index.html
+echo "Holberton School" | sudo tee /var/www/html/index.html
 
 # Performing a "moved permanently redirection" (301)
 new_string="server_name _;\n\trewrite ^\/redirect_me https:\/\/github.com\/Lydia02 permanent;"
