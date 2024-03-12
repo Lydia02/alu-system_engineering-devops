@@ -11,7 +11,7 @@ package { 'nginx':
 }
 
 file {'/var/www/html/index.html':
-	content => 'Hello Woexit!'
+	content => 'Holberton School'
 }
 
 exec {'redirect_me':
