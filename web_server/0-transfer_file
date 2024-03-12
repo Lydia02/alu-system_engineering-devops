@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-<<<<<<< HEAD
+
 # Check if the fourth argument is empty
 if [ $
     echo "Usage: 0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY"
@@ -10,7 +10,7 @@ if [ $# -lt 4 ]
 then
   echo "Usage: 0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY"
   exit 1
->>>>>>> 805e219ac722ff8223d2faa11d690b53fae4e524
+
 fi
 
 # Assigning Arguments to variables
