@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# Fixes a web server to run Nginx as the nginx user listening on port 8080.
 chmod 644 /etc/nginx/nginx.conf
 sed -Ei 's/\s*#?\s*user .*/user nginx;/' /etc/nginx/nginx.conf
 sed -Ei 's/(listen (\[::\]:)?80) /\180 /' /etc/nginx/sites-enabled/default
